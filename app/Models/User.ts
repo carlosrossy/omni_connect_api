@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 import { DateTime } from 'luxon'
-import { column } from '@ioc:Adonis/Lucid/Orm'
+import { beforeSave, column } from '@ioc:Adonis/Lucid/Orm'
 import UuidBase from './Base/UuidBase'
-import { Roles, Sex } from 'App/Utils/constants'
+import { Roles, Sex } from 'App/Utils/Constants'
+import Hash from "@ioc:Adonis/Core/Hash";
 
 export default class User extends UuidBase {
   @column()
@@ -32,4 +34,11 @@ export default class User extends UuidBase {
 
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   public updatedAt: DateTime
+
+  @beforeSave()
+  public static async hashPassword(user: User) {
+    if (user.$dirty.password) {
+      user.password = await Hash.make(user.password);
+    }
+  }
 }
