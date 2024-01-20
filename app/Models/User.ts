@@ -1,9 +1,10 @@
 /* eslint-disable prettier/prettier */
 import { DateTime } from 'luxon'
-import { beforeSave, column } from '@ioc:Adonis/Lucid/Orm'
+import { HasOne, beforeSave, column, hasOne } from '@ioc:Adonis/Lucid/Orm'
 import UuidBase from './Base/UuidBase'
 import { Roles, Sex } from 'App/Utils/Constants'
 import Hash from "@ioc:Adonis/Core/Hash";
+import Adress from './Adress';
 
 export default class User extends UuidBase {
   @column()
@@ -29,6 +30,10 @@ export default class User extends UuidBase {
 
   @column({ serializeAs: null })
   public password: string
+
+  @hasOne(() => Adress)
+  public adress: HasOne<typeof Adress>
+
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 
