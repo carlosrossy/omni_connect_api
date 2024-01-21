@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { inject } from '@adonisjs/core/build/standalone'
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import UserRepository from 'App/Repositories/User/UserRepository'
@@ -10,6 +11,7 @@ export default class UsersController {
 
   public async userLogged({ auth, response }: HttpContextContract) {
     const userLogged = await auth.authenticate()
+    await userLogged.load("adress")
     return response.ok(userLogged)
   }
 
