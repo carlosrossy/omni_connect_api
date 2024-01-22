@@ -39,6 +39,9 @@ $ cd omni_connect_api
 $ yarn
 
 # Executar a migração do Banco de daos
+$ docker compose up -d
+
+# Executar a migração do Banco de daDos
 $ node ace migration:run
 
 # Execute a aplicação
