@@ -1,3 +1,6 @@
+<h1 align="center">
+  <img alt="OmniConnect" title="OmniConnect" src="./resources/Capa.png" width="80%"/>
+</h1>
 
 ## 💻 Projeto
 
