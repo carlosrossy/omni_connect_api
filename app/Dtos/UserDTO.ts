@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { Roles } from 'App/Utils/constants'
+import { Roles } from 'App/Utils/Constants'
 
 export default interface UserDTO {
   name: string
