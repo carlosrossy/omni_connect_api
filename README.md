@@ -30,13 +30,16 @@ Está aplicação foi um desafio técnico para uma vaga de Software Engineer 1.
 - Existe uma rota de o usuario logar na aplicação..
 <br><br>
 
-## 🎲 Executar aplicação
+## 🎲 Executar aplicação Localmente
 ```bash
 # Clone este repositório
 $ git clone https://github.com/carlosrossy/omni_connect_api.git
 
 # Entre na pasta do projeto.
 $ cd omni_connect_api
+
+# Copiar as envs do projeto
+$ copiar o .env.example para o env
 
 # Instale as dependências
 $ yarn
@@ -49,6 +52,13 @@ $ node ace migration:run
 
 # Execute a aplicação
 $ yarn dev
+
+```
+
+## 🎲 Executar aplicação pelo Insomnia
+```bash
+# url do projeto
+$ https://omni-connect-service.onrender.com
 
 ```
 
