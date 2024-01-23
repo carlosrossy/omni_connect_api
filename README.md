@@ -8,7 +8,7 @@ Está aplicação foi um desafio técnico para uma vaga de Software Engineer 1.
 
  O objetivo era desenvolver apenas uma única funcionalidade: a de criação de contas de usuário.
  <br><br>
- A api esta hospedada na **[Render](https://render.com/)**. juntamente com o Banco de dados tambem.
+ A api esta hospedada juntamente com o Banco de dados na **[Render](https://render.com/)**. 
 <br>
 
 ## 💬 Informações sobre as funcionalidades
@@ -63,6 +63,11 @@ $ yarn dev
 $ https://omni-connect-service.onrender.com
 
 ```
+
+## 📄 Documentos
+  
+- Existe uma pasta com os documentos de Digrama de de Arquitetura e de Solução feitos com **[C4 Model](https://c4model.com/)**.
+<br><br>
 
 ## 🚀 Tecnologias ultilizadas
 
