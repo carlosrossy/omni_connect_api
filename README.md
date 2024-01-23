@@ -46,7 +46,7 @@ $ copiar o .env.example para o env
 # Instale as dependências
 $ yarn
 
-# Executar a migração do Banco de daos
+# Iniciar os Serviços do Banco de Dados Postgres
 $ docker compose up -d
 
 # Executar a migração do Banco de daDos
