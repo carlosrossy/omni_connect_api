@@ -74,6 +74,7 @@ $ https://omni-connect-service.onrender.com
 ## 🚀 Tecnologias ultilizadas
 
 - Esta api foi criada com **[NodeJS](https://nodejs.org/en/download/)**.
+- Esta api foi hospedada no  **[Render](https://render.com/)**.
 - Esta api foi criada com **[AdonisJS](https://adonisjs.com/)**.
 - Esta api foi criada com a linguagem **[Typescript](https://www.typescriptlang.org/)**.
 - O banco de dados ultilizado **[Postgresql](https://www.postgresql.org/)**. 
