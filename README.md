@@ -67,7 +67,7 @@ $ https://omni-connect-service.onrender.com
 ## 📄 Documentos
   
 - Existe uma pasta com os documentos de Digrama de Arquitetura e de Solução feitos com **[C4 Model](https://c4model.com/)**.
-- o link para navegar ate a pasta **[Documents](https://github.com/carlosrossy/omni_connect_api/tree/main/Documents/C4_models)**. 
+- O link para navegar ate a pasta **[Documents](https://github.com/carlosrossy/omni_connect_api/tree/main/Documents/C4_models)**. 
 
 <br><br>
 
