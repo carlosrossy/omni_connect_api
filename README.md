@@ -7,7 +7,9 @@
 Está aplicação foi um desafio técnico para uma vaga de Software Engineer 1.
 
  O objetivo era desenvolver apenas uma única funcionalidade: a de criação de contas de usuário.
-<br><br>
+ <br><br>
+ A api esta hospedada na **[Render](https://render.com/)**. juntamente com o Banco de dados tambem.
+<br>
 
 ## 💬 Informações sobre as funcionalidades
 
