@@ -49,7 +49,7 @@ $ yarn
 # Iniciar os Serviços do Banco de Dados Postgres
 $ docker compose up -d
 
-# Executar a migração do Banco de daDos
+# Executar a migração do Banco de dados
 $ node ace migration:run
 
 # Execute a aplicação
@@ -66,7 +66,9 @@ $ https://omni-connect-service.onrender.com
 
 ## 📄 Documentos
   
-- Existe uma pasta com os documentos de Digrama de de Arquitetura e de Solução feitos com **[C4 Model](https://c4model.com/)**.
+- Existe uma pasta com os documentos de Digrama de Arquitetura e de Solução feitos com **[C4 Model](https://c4model.com/)**.
+- o link para navegar ate a pasta **[Documents](https://github.com/carlosrossy/omni_connect_api/tree/main/Documents/C4_models)**. 
+
 <br><br>
 
 ## 🚀 Tecnologias ultilizadas
